@@ -1,2 +1,2 @@
 #!/bin/bash
-./preprocess.sh hello.c hello.i
+gcc -t $CFILE -o c
