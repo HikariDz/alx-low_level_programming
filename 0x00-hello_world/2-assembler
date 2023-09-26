@@ -1,3 +1,2 @@
 #!/bin/bash
 gcc -S -o $CFILE.s $CFILE
-tr -d '[:space:]\t' < $CFILE.s | grep -v '^$' > $CFILE.s.clean
